@@ -3,13 +3,19 @@ body {
     margin: 40px;
 }
 
-header, .content {
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
     margin-bottom: 20px;
 }
 
 .nav {
-    margin-top: 20px;
     list-style-type: none;
+    padding: 0;
 }
 
 .nav li {
@@ -20,4 +26,8 @@ header, .content {
 .nav a {
     text-decoration: none;
     color: black;
+}
+
+hr {
+    margin-top: 10px;
 }
