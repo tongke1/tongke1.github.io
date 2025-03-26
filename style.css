@@ -59,7 +59,7 @@ header {
     width: 300px; /* Adjust based on your actual image size */
     height: auto;
     border-radius: 10px; /* Styling for rounded corners */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+/*     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */ */
 }
 
 hr {
