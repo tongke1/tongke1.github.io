@@ -37,15 +37,21 @@ header {
     letter-spacing: 1px; /* Slightly spaces out letters */
 }
 
-.nav a:hover {
-    color: #555; /* Changes color on hover */
-    text-decoration: underline; /* Adds an underline on hover */
-}
-
 .content {
     padding: 20px;
-    background-color: #f8f8f8; /* Adds a light background color */
+    background-color: #F8F8FF; /* Changed to off-white color */
     border-radius: 5px; /* Softens the edges */
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between; /* Ensures content is spaced between left and right */
+    align-items: center; /* Aligns items vertically */
+}
+
+.about-text {
+    flex: 1; /* Allows text block to fill the space */
+    padding-right: 20px; /* Adds space between the text and the image */
 }
 
 .about-image {
@@ -61,4 +67,5 @@ hr {
     background-color: black; /* Color of the line */
     border: none; /* Removes default border styles */
 }
+
 
