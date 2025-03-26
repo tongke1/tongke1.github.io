@@ -1,6 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Default font for the body */
     margin: 40px;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif; /* This changes the font for the header */
 }
 
 .header-content {
@@ -30,4 +34,8 @@ header {
 
 hr {
     margin-top: 10px;
+    height: 3px; /* Increase the thickness of the line */
+    background-color: black; /* Ensure the line color is black */
+    border: none; /* Remove any default border */
 }
+
