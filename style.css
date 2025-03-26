@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 40px 5%; /* Use percentage to make margins responsive */
+    margin: 40px 130px; /* Use percentage to make margins responsive */
 }
 
 h1 {
@@ -45,8 +45,8 @@ header {
 
 .about-section {
     display: flex;
-    justify-content: space-between; /* Ensures content is spaced between left and right */
-    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Keeps items on opposite ends horizontally */
+    align-items: flex-start; /* Aligns items at the top */
 }
 
 .about-text {
@@ -55,9 +55,9 @@ header {
 }
 
 .about-image {
-    width: 300px; /* Or use max-width for responsiveness */
+    width: 300px; /* Adjust based on your actual image size */
     height: auto;
-    border-radius: 10px; /* Adds rounded corners */
+    border-radius: 10px; /* Styling for rounded corners */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
 }
 
